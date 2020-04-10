@@ -1,0 +1,19 @@
+{
+  "name": "rules-hooks",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "jest --coverage",
+    "test:watch": "jest --verbose --watch"
+  },
+  "dependencies": {
+    "nexmo": "^2.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16",
+    "faker": "^4.1",
+    "jest": "^25.2"
+  }
+}
