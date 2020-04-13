@@ -6,7 +6,7 @@ const callback = (err, token) => {
   result = token;
 };
 
-describe('default hook', () => {
+describe('hook: client credentials, custom claim', () => {
 
   beforeEach(() => {
     result = undefined;

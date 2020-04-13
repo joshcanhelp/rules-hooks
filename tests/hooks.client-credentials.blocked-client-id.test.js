@@ -8,7 +8,7 @@ const callback = (err, token) => {
   result = token;
 };
 
-describe('default hook', () => {
+describe('hook: client credentials, blocked Client', () => {
 
   beforeEach(() => {
     result = undefined;

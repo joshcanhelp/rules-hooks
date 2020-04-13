@@ -6,7 +6,7 @@ const callback = (err, token) => {
   result = token;
 };
 
-describe('default hook', () => {
+describe('hook: client credentials, default', () => {
 
   beforeEach(() => {
     result = undefined;
