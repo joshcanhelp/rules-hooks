@@ -18,6 +18,6 @@ module.exports = function(toNumber, text, context, cb) {
       return cb(new Error(`Message failed: ${firstMsg['error-text']}`));
     }
 
-    cb();
+    return cb(null, {});
   });
 };
